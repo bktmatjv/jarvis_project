@@ -1,0 +1,31 @@
+# --- SEGURIDAD (Lo más importante) ---
+# Ignorar el archivo de claves y variables de entorno
+.env
+
+# --- ENTORNOS VIRTUALES ---
+# Ignorar la carpeta del entorno virtual que veo en tu estructura
+venv/
+.venv/
+env/
+
+# --- ARCHIVOS DE PYTHON ---
+# Ignorar archivos compilados de Python que saturan el repo
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- CONFIGURACIÓN DE EDITOR (VS Code) ---
+# Ignorar la carpeta .vscode que sale en tu captura
+.vscode/
+
+# --- ARCHIVOS TEMPORALES Y CACHÉ ---
+# Ignorar la carpeta .cache que tienes en tu proyecto
+.cache/
+.DS_Store
+Thumbs.db
+
+# --- COMPILACIONES (Si llegas a crear un .exe) ---
+build/
+dist/
+*.spec
